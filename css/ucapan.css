@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins-Regular";
+
+  color: rgb(105, 102, 255);
+}
+
+.jumbotron {
+  padding-top: 20px;
+  width: 100%;
+  background-color: rgb(255, 173, 221);
+  background: url(../img/jakarta.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  width: 100%;
+}
+.img-feby {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.satu {
+  padding-top: 20px;
+}
+
+section .container .row .col-md-6 .img1 {
+  border-radius: 20px;
+}
+
+.dua {
+  background-color: #e2d4ff;
+}
+
+.modal {
+  font-family: "Comforta";
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../font/LobsterTwo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Comforta";
+  src: url("../font/Comfortaa-Medium.ttf") format("truetype");
+}

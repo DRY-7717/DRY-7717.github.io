@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+body{
+	background-color: #18020e
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 13% auto;
+	max-width: 800px;
+	height: 300px;
+	border: 5px solid #f56ed8;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 15px 2px #f56ed8,inset 0px 0px 5px 2px #f56ed8;
+	font-family: "monsterat";
+
+}
+.container h1{
+	font-size: 120px;
+	color: #f56ed8;
+	text-shadow: 0px 0px 10px #f56ed8;
+}
+
+
+.cardUltah{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	display: none;
+}
+
+.col-satu,
+.col-dua{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 10px;
+	background-color: salmon;
+}
+
+
+/* .ultah{
+	width: 75%;
+	height: 70vh;
+	border:5px solid #f2c03a;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	margin: 80px auto;
+	display: none;
+	flex-direction: column;
+	color: #f2c03a;
+	border-radius: 50px;
+	box-shadow: 0px 0px 15px 2px  #f2c03a,
+				inset 0px 0px 5px 2px #f2c03a;
+
+
+}
+.ultah h1{
+	font-size: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-shadow: 0px 0px 10px #f2c03a;
+	font-family: "kaushan";
+	animation: huruf 1.5s ease infinite;	
+	font-weight: bold;
+}
+
+/* .kotak{
+	text-align: center;
+	margin-top: 50px;
+}
+.kotak span{
+	font-size: 4em;
+	text-shadow: 0px 0px 10px #f2c03a;
+	font-family: "monsterat";
+	font-weight: bold;
+}
+.ultah .kotak .satu,.dua,.tiga{
+	animation: huruf 1.5s ease infinite;
+}
+
+.ultah .kotak .satu,.dua,.tiga{
+	display: inline-block;
+}
+.ultah .kotak .satu:nth-child(4){
+	margin-right: 15px;
+}
+.ultah .kotak .dua:nth-child(8){
+	margin-right: 15px;
+} */
+
+/* @keyframes huruf{
+	0%{
+		transform: scale(1);
+	}
+	20%{
+		transform: scale(1,1);
+		transform: translateY(-40px);
+		color: #709ead;
+	}
+	40%{
+		transform: scale(1,1);
+		transform: translateY(40px);
+		color: purple;
+	}
+	60%{
+		transform: scale(1.3,1);
+	}
+} */
+
+/*H1*/
+/* .ultah h1:nth-child(1){
+	animation-delay: 0s;
+} */
+/* .ultah h1:nth-child(2){
+	animation-delay: .1s;
+}  */
+
+
+
+
+/*Span*/
+
+/* .ultah .kotak span.satu:nth-child(1){
+	animation-delay: 0s;
+}
+.ultah .kotak span.satu:nth-child(2){
+	animation-delay: .1s;
+}
+.ultah .kotak span.satu:nth-child(3){
+	animation-delay: .2s;
+}
+.ultah .kotak span.satu:nth-child(4){
+	animation-delay: .3s;
+} */
+/*dua*/
+/* .ultah .kotak span.dua:nth-child(5){
+	animation-delay: 0s;
+}
+.ultah .kotak span.dua:nth-child(6){
+	animation-delay: .1s;
+}
+.ultah .kotak span.dua:nth-child(7){
+	animation-delay: .2s;
+}
+.ultah .kotak span.dua:nth-child(8){
+	animation-delay: .3s;
+}
+/*tiga*/
+/* .ultah .kotak span.tiga:nth-child(9){
+	animation-delay: 0s;
+}
+.ultah .kotak span.tiga:nth-child(10){
+	animation-delay: .1s;
+}
+.ultah .kotak span.tiga:nth-child(11){
+	animation-delay: .2s;
+}
+.ultah .kotak span.tiga:nth-child(12){
+	animation-delay: .3s;
+}
+.ultah .kotak span.tiga:nth-child(13){
+	animation-delay: .4s;
+}
+.ultah .kotak span.tiga:nth-child(14){
+	animation-delay: .5s;
+}
+.ultah .kotak span.tiga:nth-child(15){
+	animation-delay: .6s;
+}
+.ultah .kotak span.tiga:nth-child(16){
+	animation-delay: .7s;
+}
+.ultah .kotak span.tiga:nth-child(17){
+	animation-delay: .8s;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Alex";
+    src: url('../font/AlexBrush-Regular.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: "kaushan";
+    src: url('../font/KaushanScript-Regular.otf')format('truetype');
+}
+
+@font-face {
+    font-family: "monsterat";
+    src: url('../font/MontserratAlternates-Light.ttf')format('truetype');
+}
+
